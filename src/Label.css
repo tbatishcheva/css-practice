@@ -1,0 +1,18 @@
+.label {
+  color: black;
+  font-weight: 400;
+  padding: 0.1em 0.5em;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 2px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.label_color-green {
+  background-color: #3AC089;
+}
+
+.label_color-red {
+  background-color: #FF4848;
+}

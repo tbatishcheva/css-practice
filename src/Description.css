@@ -1,0 +1,47 @@
+.description {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  color: #ffffff;  
+  background: #171717;
+  padding: 10px;
+}
+
+.description__main-text {
+  font-size: 20px;
+}
+
+.description__text {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.description__label{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.description__buttons {
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .description {
+    background: #000000;
+    flex-direction: column;
+    border-bottom: 1px solid #353535;
+  }
+
+  .description__label{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .description__text {
+    margin-right: 0px;
+  }
+}

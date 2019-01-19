@@ -1,0 +1,17 @@
+.button {
+  align-items: center;
+  display: inline-flex;
+  border-radius: 3px;
+  border: none;
+  padding: 2px 6px;
+  min-height: 36px;
+}
+
+.button_color-gray {
+  background: #353535;
+  color: white;
+}
+
+.button_with-margin {
+  margin: 0 3px;
+}

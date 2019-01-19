@@ -1,0 +1,19 @@
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+}
+
+.actions__view {
+    display: flex;
+}
+
+.actions__size {
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    .actions {
+        border-bottom: 1px solid #353535;
+    }
+}

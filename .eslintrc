@@ -1,0 +1,17 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "env": {
+      "node": true,
+      "es6": true,
+      "browser": true,
+      "jest": true
+    },
+    "rules": {
+      "linebreak-style": "off",
+      "react/destructuring-assignment": "off",
+      "react/prefer-stateless-function": "off",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "react/jsx-one-expression-per-line": "off"
+    }
+  }

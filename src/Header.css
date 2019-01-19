@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  padding: 10px;
+  background: #171717;
+  position: relative;
+}
+
+.header__logo {
+  margin-right: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.header__menu {
+  margin-right: auto; 
+  display: flex; 
+  align-items: center;
+}
+
+.header__menu-item {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.header__menu-item:hover {
+  color: #FFFFFF;
+}
+
+.header__log-in {
+  display: flex; 
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header__log-in-item {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header__menu-item.header__menu-item_active {
+  color: #FFFFFF;
+}
+
+.header__burger-menu {
+  display: none;
+}
+
+.header__short-menu {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 54px;
+  background: #161616;
+  width: 100%;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0 10px 5px 10px;
+}
+
+.header__short-menu-item {
+  display: none;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 0px 5px 0px;
+}
+
+.header__short-menu-item:hover {
+  color: #FFFFFF;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__log-in {
+    display: none;
+  }
+
+  .header__burger-menu {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .header__short-menu-item {
+    display: flex;
+  }
+
+  .header__logo {
+    margin-right: 0px;
+  }
+  
+  .header__short-menu-item-separator {
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+    background: #353535;
+  }
+}
